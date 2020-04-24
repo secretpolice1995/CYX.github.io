@@ -1,0 +1,79 @@
+encoding: utf-8
+
+# SEO相关信息
+title: CYN
+description: CYN
+keywords: CYN,Blog,Java,Html,JavaScript
+author: CYN
+footerText: 'Copyright ©2020 by CYN'
+
+# 这些不要动
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'cli.bat']
+
+# 域名配置
+# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
+domainUrl: 'https://secretpolice1995.github.io'
+baseurl: 'https://secretpolice1995.github.io/CYX.github.io'
+
+# 吐个槽地址，会在chat页面中重定向到该地址
+tucaoUrl: https://support.qq.com/product/142217
+
+# 菜单
+menu:
+  - title: 首页
+    url: /
+  - title: 文章
+    url: /pages/articles.html
+  - title: 归类
+    url: /pages/categories.html
+  - title: 搜索
+    url: /pages/search.html
+  - title: 友链
+    url: /pages/links.html
+  - title: 留言
+    url: /pages/chat.html
+
+
+# 点击页面文字冒出特效,不需要请设置为false
+extClickEffect: true
+
+# Google Adsense,不需要请设置为false
+# _includes/ext-adsense.html 里面修改为自己的配置
+extAdsense: false
+
+# 腾讯MTA移动分析,不需要请设置为false
+# _includes/ext-adsense.html 里面修改为自己的配置
+extMTA: false
+
+# 百度收录自动推送,不需要请设置为false
+extBaidu: false
+
+# 数学公式支持，比较影响加载速度,不需要请设置为false
+extMath: false
+
+# 友情链接
+links:
+  - title: 今日头条
+    url: https://www.toutiao.com
+  - title: 凤凰网
+    url: https://www.ifeng.com
+  - title: 腾讯网
+    url: https://www.qq.com
+  - title: 微博
+    url: https://weibo.com
+  - title: 网易
+    url: https://www.163.com
+  - title: 优酷视频
+    url: https://www.youku.com
+  - title: 腾讯视频
+    url: https://v.qq.com
+  - title: 爱奇艺视频
+    url: https://www.iqiyi.com
+  - title: 酷狗音乐
+    url: https://www.kugou.com
+  - title: QQ音乐
+    url: https://y.qq.com/
